@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Framework.Services.Entity</id>
+    <version>1.0.2</version>
+    <authors>Jose Carlos de Jesus Junior</authors>
+    <owners>Jose Carlos de Jesus Junior</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/juninhodigital/Framework.Entity/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/juninhodigital/Framework.Entity</projectUrl>
+    <iconUrl>https://github.com/juninhodigital/Framework.Core/blob/master/Icons/FS_IconSmall.png?raw=true</iconUrl>
+    <description>It provides a base class called Business Entities Structure (Base Model) used to map automatticaly the properties without using reflection from the database/datasource</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>Base Model, Mapping Class, ORM</tags>
+    <repository url="https://github.com/juninhodigital/Framework.Entity" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Framework.Services.Core" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\bin\Debug\netstandard2.0\Framework.Entity.dll" target="lib\netstandard2.0\Framework.Entity.dll" />
+  </files>
+</package>

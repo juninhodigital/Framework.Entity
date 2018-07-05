@@ -1,0 +1,9 @@
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\obj\Debug\netstandard2.0\Framework.Entity.csproj.CoreCompileInputs.cache
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\obj\Debug\netstandard2.0\Framework.Entity.AssemblyInfoInputs.cache
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\obj\Debug\netstandard2.0\Framework.Entity.AssemblyInfo.cs
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\bin\Debug\netstandard2.0\Framework.Entity.deps.json
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\bin\Debug\netstandard2.0\Framework.Entity.dll
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\bin\Debug\netstandard2.0\Framework.Entity.pdb
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\obj\Debug\netstandard2.0\Framework.Entity.dll
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\obj\Debug\netstandard2.0\Framework.Entity.pdb
+C:\Users\jjunior\Desktop\Framework\Services\Framework.Entity\Framework.Entity\obj\Debug\netstandard2.0\Framework.Entity.csprojAssemblyReference.cache
