@@ -12,6 +12,7 @@
     <PackageIconUrl>https://github.com/juninhodigital/Framework.Core/blob/master/Icons/FS_IconSmall.png?raw=true</PackageIconUrl>
     <RepositoryUrl>https://github.com/juninhodigital/Framework.Entity</RepositoryUrl>
     <PackageTags>Base Model, Mapping Class, ORM</PackageTags>
+    <NeutralLanguage>English (United States)</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
