@@ -137,7 +137,7 @@ namespace Framework.Entity
         /// <param name="PropertyName">Property Name</param>
         private void AddMapping(string ColumnName, string PropertyName)
         {
-            this.MappedProperties.Where(P => P.PropertyName == PropertyName);
+            this.MappedProperties.Add(new MapperProperty(ColumnName, PropertyName));
         }
 
         #endregion
