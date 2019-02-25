@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Framework.Core;
 
 namespace Framework.Entity
@@ -33,7 +34,7 @@ namespace Framework.Entity
         #region| Fields |
 
         [NonSerialized]
-        private List<MapperProperty> oProperties = null;
+        private HashSet<MapperProperty> oProperties = null;
 
         #endregion
 
@@ -43,7 +44,7 @@ namespace Framework.Entity
         /// Stores the class properties mapping relationship
         /// </summary>
         [System.Xml.Serialization.XmlIgnore]
-        public List<MapperProperty> MappedProperties
+        public HashSet<MapperProperty> MappedProperties
         {
             get
             {
@@ -64,7 +65,7 @@ namespace Framework.Entity
         /// </summary>
         protected BusinessEntityStructure()
         {
-
+            this.MappedProperties = new HashSet<MapperProperty>();
         }
 
         #endregion
@@ -136,23 +137,7 @@ namespace Framework.Entity
         /// <param name="PropertyName">Property Name</param>
         private void AddMapping(string ColumnName, string PropertyName)
         {
-            this.Check();
-
-            if (!this.MappedProperties.Exists(P => P.PropertyName == PropertyName))
-            {
-                this.MappedProperties.Add(new MapperProperty(ColumnName, PropertyName));
-            }
-        }
-
-        /// <summary>
-        /// Check if the properties collections is initialized
-        /// </summary>
-        private void Check()
-        {
-            if (this.MappedProperties.IsNull())
-            {
-                this.MappedProperties = new List<MapperProperty>();
-            }
+            this.MappedProperties.Where(P => P.PropertyName == PropertyName);
         }
 
         #endregion
