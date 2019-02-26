@@ -34,7 +34,7 @@ namespace Framework.Entity
         #region| Fields |
 
         [NonSerialized]
-        private HashSet<MapperProperty> oProperties = null;
+        private Dictionary<string, string> oProperties = null;
 
         #endregion
 
@@ -44,7 +44,7 @@ namespace Framework.Entity
         /// Stores the class properties mapping relationship
         /// </summary>
         [System.Xml.Serialization.XmlIgnore]
-        public HashSet<MapperProperty> MappedProperties
+        public Dictionary<string, string> MappedProperties
         {
             get
             {
@@ -65,7 +65,7 @@ namespace Framework.Entity
         /// </summary>
         protected BusinessEntityStructure()
         {
-            this.MappedProperties = new HashSet<MapperProperty>();
+            this.MappedProperties = new Dictionary<string, string>();
         }
 
         #endregion
@@ -133,11 +133,14 @@ namespace Framework.Entity
         /// <summary>
         /// Maps the class property to be filled with the datasource column
         /// </summary>
-        /// <param name="ColumnName">Column Name</param>
         /// <param name="PropertyName">Property Name</param>
-        private void AddMapping(string ColumnName, string PropertyName)
+        /// <param name="ColumnName">Column Name</param>
+        private void AddMapping(string PropertyName, string ColumnName)
         {
-            this.MappedProperties.Add(new MapperProperty(ColumnName, PropertyName));
+            if (this.MappedProperties.ContainsKey(PropertyName)==false)
+            {
+                this.MappedProperties.Add(PropertyName, ColumnName);
+            }
         }
 
         #endregion
