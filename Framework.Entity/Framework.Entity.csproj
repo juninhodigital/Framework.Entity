@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/juninhodigital/Framework.Entity</RepositoryUrl>
     <PackageTags>Base Model, Mapping Class, ORM</PackageTags>
     <NeutralLanguage>English (United States)</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
