@@ -13,7 +13,7 @@ Technologies
 
 Full Version  | NuGet		       | Package Manager
 :------------ | :-------------|:----------------
-Framework.Entity          | <a href="https://www.nuget.org/packages/Framework.Services.Entity/"><img src="https://github.com/juninhodigital/Framework.Core/blob/master/nuget.svg"/></a> | PM > Install-Package Framework.Entity -Version 1.0.6
+Framework.Entity          | <a href="https://www.nuget.org/packages/Framework.Services.Entity/"><img src="https://github.com/juninhodigital/Framework.Core/blob/master/nuget.svg"/></a> | PM > Install-Package Framework.Entity
 
 ## Contribute
 The best way to contribute is by **putting in some good words** about the library and help me out by:
