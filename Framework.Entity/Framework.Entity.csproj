@@ -4,9 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>It provides a base class called Business Entities Structure (Base Model) used to map automatticaly the properties without using reflection from the database/datasource</Description>
     <PackageId>Framework.Services.Entity</PackageId>
-    <Version>1.0.6</Version>
+    <Version>1.0.7</Version>
     <Authors>Jose Carlos de Jesus Junior</Authors>
     <Copyright>Copyright 2018</Copyright>
+      
     <PackageLicenseUrl>https://github.com/juninhodigital/Framework.Entity/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/juninhodigital/Framework.Entity</PackageProjectUrl>
     <PackageIconUrl>https://github.com/juninhodigital/Framework.Core/blob/master/Icons/FS_IconSmall.png?raw=true</PackageIconUrl>
@@ -22,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Framework.Services.Core" Version="1.0.3" />
+    <PackageReference Include="Framework.Services.Core" Version="1.0.4" />
   </ItemGroup>
 
 </Project>
