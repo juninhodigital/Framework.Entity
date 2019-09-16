@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Framework.Services.Core" Version="1.0.4" />
+    <PackageReference Include="Framework.Services.Core" Version="1.0.5" />
   </ItemGroup>
 
 </Project>
