@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Xml.Serialization;
+
 using Framework.Core;
+using Newtonsoft.Json;
 
 namespace Framework.Entity
 {
@@ -43,7 +45,7 @@ namespace Framework.Entity
         /// <summary>
         /// Stores the class properties mapping relationship
         /// </summary>
-        [System.Xml.Serialization.XmlIgnore]
+        [XmlIgnore, JsonIgnore]
         public Dictionary<string, string> MappedProperties
         {
             get
