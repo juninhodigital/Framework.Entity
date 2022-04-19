@@ -36,7 +36,7 @@ namespace Framework.Entity
         #region| Fields |
 
         [NonSerialized]
-        private Dictionary<string, string> oProperties = null;
+        private Dictionary<string, string>? oProperties = null;
 
         #endregion
 
@@ -46,7 +46,7 @@ namespace Framework.Entity
         /// Stores the class properties mapping relationship
         /// </summary>
         [XmlIgnore, JsonIgnore]
-        public Dictionary<string, string> MappedProperties
+        public Dictionary<string, string>? MappedProperties
         {
             get
             {
@@ -139,7 +139,7 @@ namespace Framework.Entity
         /// <param name="ColumnName">Column Name</param>
         private void AddMapping(string PropertyName, string ColumnName)
         {
-            if (this.MappedProperties.ContainsKey(PropertyName)==false)
+            if (this.MappedProperties?.ContainsKey(PropertyName)==false)
             {
                 this.MappedProperties.Add(PropertyName, ColumnName);
             }
