@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -9,16 +9,17 @@
     <Company>Jose Carlos de Jesus Junior</Company>
     <Description>It provides a base class called Business Entities Structure (Base Model) used to map automatticaly the properties without using reflection from the database/datasource</Description>
     <Copyright>Copyright 2022</Copyright>
-    <Version>1.0.12</Version>
+    <Version>1.0.13</Version>
     <PackageId>Framework.Services.Entity</PackageId>
     <PackageProjectUrl>https://github.com/juninhodigital/Framework.Entity</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/juninhodigital/Framework.Core/blob/master/Icons/FS_IconSmall.png?raw=true</PackageIconUrl>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageTags>Base Model, Mapping Class, ORM</PackageTags>
     <RepositoryType>Github</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/juninhodigital/Framework.Entity</RepositoryUrl>
     <NeutralLanguage>English (United States)</NeutralLanguage>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     
   </PropertyGroup>
 
@@ -31,8 +32,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Framework.Services.Core" Version="1.0.22" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Framework.Services.Core" Version="1.0.25" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
