@@ -4,7 +4,7 @@ name: Build and publish package
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ master ] 
 
 env:
   PROJECT_PATH: 'Framework.Entity/Framework.Entity.csproj'
